@@ -9,7 +9,7 @@ This project is a simple example for how I'd go about implementing the provided 
 [Future Changes](#future-changes)  
 
 ## Usage
-To use this API locally, clone the repo and run `npm run install` to install packages. once done you can use the following commands listed below. For both the `dev` and `start` commands, the GraphQL sandbox is left enabled to allow you to explore the schema and make calls without using any external tools. You can access this sandbox by going to the url provided after the server starts (`http://localhost:[port]`).
+To use this API locally, clone the repo and run `npm run install` to install packages. Once done, you can use the following commands listed below. For both the `dev` and `start` commands, the GraphQL sandbox is left enabled to allow you to explore the schema and make calls without using any external tools. You can access this sandbox by going to the url provided after the server starts (`http://localhost:[port]`).
 
 ### `npm run dev`
 This command is for development. It uses the included `.env` file for environment variables rather than relying on them to be provided elsewhere. It starts the application through [nodemon](https://github.com/remy/nodemon/) to allow for easy development. If you're using VSCode, you can attach your debugger to this process by going to the Run and Debug tab, and running the Attach configuration to list the node processes you can attach to. In this case, it'll be the same command that's listed under `dev` in `package.json`.
