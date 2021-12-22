@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.json",
+
+    "ts-node": {
+        // We don't want/need to do typechecking in production, so disable it to improve performance.
+        "transpileOnly": true
+    }
+}
